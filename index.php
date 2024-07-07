@@ -106,9 +106,10 @@
             background-color: #1db954;
             color: #fff;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 25px;
             transition: background-color 0.3s ease;
             margin-top: 20px;
+            margin-right: 20px;
         }
 
         .button:hover {
@@ -159,8 +160,11 @@
             </div>
         </div>
     </header>
-
-    <footer>
+<div style="margin-bottom:200px;">
+   <span style="font-size: 100px; display:relative; color:#1db954;"> Melodify </span> <br>
+  <span style="font-size: 50px; display:relative;">Upload, Listen , Enjoy !</span> 
+</div>
+    <footer style="margin-right:400px;">
        <p style="font-size:30px; margin-left:95px; font-weight:600;">Created by</p>  
        <div class="pfp">
         <img src="./pfp/kaustubh.jpg" alt=""> 
