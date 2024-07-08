@@ -207,3 +207,47 @@ searchButton.addEventListener("click", () => {
     });
   }
 });
+
+addSongButton.addEventListener("click", () => {
+  const songFile = uploadSong.files[0];
+  const imageFile = uploadImage.files[0];
+  const songName = songNameInput.value;
+
+  if (songFile && songName) {
+    const songUrl = URL.createObjectURL(songFile);
+    const imageUrl = imageFile ? URL.createObjectURL(imageFile) : "./songIMG/default.jpg";
+
+    const newSong = {
+      songName: songName,
+      filePath: songUrl,
+      coverPath: imageUrl,
+    };
+    songs.push(newSong);
+
+    const newElement = document.createElement("div");
+    newElement.classList.add("songItem");
+    newElement.innerHTML = `
+            <img src="${newSong.coverPath}" alt="cover">
+            <span class="songName">${newSong.songName}</span>
+            <span class="songlistplay">
+                <span class="timestamp">00:00 <i class="far songItemPlay fa-play-circle"></i> </span>
+            </span>`;
+
+    document.querySelector(".songItemContainer").appendChild(newElement);
+    songItem.push(newElement);
+
+    newElement.querySelector(".songItemPlay").addEventListener("click", (e) => {
+      makeAllPlays();
+      songIndex = songs.length - 1;
+      e.target.classList.remove("fa-play-circle");
+      e.target.classList.add("fa-pause-circle");
+      audioElement.src = newSong.filePath;
+      masterSongName.innerText = newSong.songName;
+      audioElement.currentTime = 0;
+      audioElement.play();
+      gif.style.opacity = 1;
+      masterPlay.classList.remove("fa-play-circle");
+      masterPlay.classList.add("fa-pause-circle");
+    });
+  }
+});
