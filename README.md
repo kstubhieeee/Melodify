@@ -1,5 +1,4 @@
 
-
 # Melodify - Music Streaming Platform
 
 Melodify is an innovative music streaming platform designed for music enthusiasts to explore, upload, and enjoy their favorite tunes. Built with modern web technologies, it offers a seamless and secure experience that caters to both listeners and music creators.
@@ -42,7 +41,7 @@ Melodify is an innovative music streaming platform designed for music enthusiast
 ## Setup Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/melodify.git
+   git clone https://github.com/kstubhieeee/Melodify.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -92,12 +91,3 @@ Melodify is an innovative music streaming platform designed for music enthusiast
   </tr>
 </table>
 
-## License
-This project is licensed under the MIT License.
-```
-
-### Key Changes Made:
-1. **GitHub Profiles**: Added the GitHub profiles for Faiz and Kaustubh with their images and links.
-2. **Tech Stack Icons**: Included HTML, CSS, JavaScript, PHP, and MySQL icons under the Technologies Used section.
-
-Feel free to replace the `path-to-snapshot` with actual image paths for your snapshots!
