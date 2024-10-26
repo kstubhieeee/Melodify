@@ -3,17 +3,6 @@
 
 Melodify is an innovative music streaming platform designed for music enthusiasts to explore, upload, and enjoy their favorite tunes. Built with modern web technologies, it offers a seamless and secure experience that caters to both listeners and music creators.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Snapshots](#snapshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributors](#contributors)
-- [License](#license)
-
----
 
 ## Features
 1. **User Authentication**
@@ -63,10 +52,6 @@ Melodify is an innovative music streaming platform designed for music enthusiast
 - **Upload Songs**: Share your music by uploading songs with album artwork.
 - **Enjoy**: Use the integrated music player for a smooth listening experience.
 
-## Snapshots
-![Home Page](path-to-snapshot)
-![Music Player](path-to-snapshot)
-![Upload Feature](path-to-snapshot)
 
 ## Future Enhancements
 - Personalized music recommendations.
@@ -79,13 +64,13 @@ Melodify is an innovative music streaming platform designed for music enthusiast
     <td align="center">
       <a href="https://github.com/faizzz11">
         <img src="https://github.com/faizzz11.png" alt="Faiz" style="width:100px; height:100px; border-radius:50%;"/><br>
-        <sub><b>Faiz Kafil Moulavi</b></sub>
+        <sub><b>Faiz</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/kstubhieeee">
         <img src="https://github.com/kstubhieeee.png" alt="Kaustubh" style="width:100px; height:100px; border-radius:50%;"/><br>
-        <sub><b>Kaustubh Vijay Bane</b></sub>
+        <sub><b>Kaustubh</b></sub>
       </a>
     </td>
   </tr>
